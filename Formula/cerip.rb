@@ -1,6 +1,6 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
-class Certificateripper < Formula
+class Cerip < Formula
   desc "Extract server certificates. - CLI"
   homepage "https://github.com/Hakky54/certificate-ripper"
   url "https://github.com/Hakky54/certificate-ripper/releases/download/0.0.1/cerip.tar.gz"
@@ -9,6 +9,6 @@ class Certificateripper < Formula
   version "0.0.1"
 
   def install
-    bin.install "certificateripper"
+    bin.install "cerip"
   end
 end
