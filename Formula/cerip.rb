@@ -9,6 +9,6 @@ class Certificateripper < Formula
   version "0.0.1"
 
   def install
-    bin.install "cerip"
+    bin.install "certificateripper"
   end
 end
