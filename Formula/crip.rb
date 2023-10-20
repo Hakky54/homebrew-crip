@@ -3,10 +3,10 @@
 class Crip < Formula
   desc "Extract server certificates. - CLI"
   homepage "https://github.com/Hakky54/certificate-ripper"
-  url "https://github.com/Hakky54/certificate-ripper/releases/download/2.1.0/crip-macos-amd64.tar.gz"
-  sha256 "74ab3a37b1c23784871fd3dbfbff2afc014f9ce1f6831c61b829e293d493e24e"
+  url "https://github.com/Hakky54/certificate-ripper/releases/download/2.2.0/crip-macos-amd64.tar.gz"
+  sha256 "075f56449a57d19109af45909ffc03c4e86380f9684566e0789d2f51cc8c852f"
   license "Apache-2.0"
-  version "2.1.0"
+  version "2.2.0"
 
   def install
     bin.install "crip"
