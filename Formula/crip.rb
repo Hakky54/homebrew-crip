@@ -41,7 +41,7 @@ class Crip < Formula
         sha256 "48f9e679e4fecbc81c303072248d32968b6a1f7ae2a67afb09f1e9fe486cd007"
 
         def install
-            bin.install "qcadmin_linux_arm64" => "qcadmin"
+            bin.install "crip" => "crip"
         end
       end
     end
