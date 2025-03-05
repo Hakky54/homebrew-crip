@@ -3,13 +3,13 @@
 class Crip < Formula
   desc "Extract server certificates. - CLI"
   homepage "https://github.com/Hakky54/certificate-ripper"
-  version "2.4.0"
+  version "2.4.1"
   license "Apache-2.0"
   
     on_macos do
       if Hardware::CPU.arm?
         url "https://github.com/Hakky54/certificate-ripper/releases/download/#{version}/crip-macos-aarch64.tar.gz"
-        sha256 "a0cec58a545461e61004a756bd2f1a8caf27d597db0e8ea9dd328ed31827de3c"
+        sha256 "372a18082eeceb561c578549d1d48b85af472555961d38f48947cc72abb2acfe"
 
         def install
             bin.install "crip" => "crip"
@@ -18,7 +18,7 @@ class Crip < Formula
 
       if Hardware::CPU.intel?
         url "https://github.com/Hakky54/certificate-ripper/releases/download/#{version}/crip-macos-amd64.tar.gz"
-        sha256 "d2bad0697da026118b67d4aae202b6eaf3cf07b527d552e3f6f1ea79cf66a7c3"
+        sha256 "ff96f2d380e7dd4f0cf1155884600e6f5f4d9b9c285788d897e92a6af560d6dd"
 
         def install
             bin.install "crip" => "crip"
@@ -29,7 +29,7 @@ class Crip < Formula
     on_linux do
       if Hardware::CPU.intel?
         url "https://github.com/Hakky54/certificate-ripper/releases/download/#{version}/crip-linux-amd64.tar.gz"
-        sha256 "ddef084e5f8c59a5436f91db5aba08057e9cb02923e2376f45c593e73cadf6f4"
+        sha256 "7131949d14e9a0c85159c0c59cec767e618ec30226b43c8acb1a0d9f0f33fdeb"
 
         def install
             bin.install "crip" => "crip"
@@ -38,7 +38,7 @@ class Crip < Formula
 
       if Hardware::CPU.arm?
         url "https://github.com/Hakky54/certificate-ripper/releases/download/#{version}/crip-linux-aarch64.tar.gz"
-        sha256 "48f9e679e4fecbc81c303072248d32968b6a1f7ae2a67afb09f1e9fe486cd007"
+        sha256 "0e3f4cb3f4bf7272dfb969df633ab0a7ad2d5f86e963254d6f8150d9f20c5324"
 
         def install
             bin.install "crip" => "crip"
